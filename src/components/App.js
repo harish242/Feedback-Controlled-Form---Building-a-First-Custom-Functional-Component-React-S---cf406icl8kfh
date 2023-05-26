@@ -4,7 +4,7 @@ import '../styles/App.css';
 const App = () => {
   const [rating, setRating] = useState(5);
   const [comment, setComment] = useState("");
-  const [commentError, setCommentError] = useState();
+  const [commentError, setCommentError] = useState("");
    const inputChanging=(event)=>{
     if(event.target.id=="rating"){
       setRating(event.target.value)
