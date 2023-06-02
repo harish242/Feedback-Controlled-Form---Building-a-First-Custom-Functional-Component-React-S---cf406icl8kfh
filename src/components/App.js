@@ -27,6 +27,7 @@ const App = () => {
             min="1"
             max="10"
             id="rating"
+            value={rating}
           />
           <span className='rating' >{rating}</span>
         </div>
